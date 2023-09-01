@@ -1,4 +1,9 @@
 print ("hello world")
 print("c'est bon")
-x=1+1
-print(x)
+
+
+def toto(n):
+    x=0
+    for i in range(1,n):
+        x+=1
+    return x
