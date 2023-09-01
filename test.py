@@ -14,3 +14,7 @@ def toto2(n):
         return True
     elif n%2==1:
         return False
+
+toto(4)
+
+toto2(4)
